@@ -33,8 +33,9 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
-              }
+                "input": "node_modules/ngx-extended-pdf-viewer/assets/",
+                "output": "/assets/"
+              },"src/assets"
             ],
             "styles": [
               "src/styles.css"
